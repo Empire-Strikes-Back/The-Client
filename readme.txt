@@ -1,0 +1,1 @@
+is it not the code of the Guild that these events are now forgotten?
