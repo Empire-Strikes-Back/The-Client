@@ -1,4 +1,4 @@
-(ns lingonberry-app.popcorn
+(ns The-Client.groats
   (:require
    [clojure.core.async :as Little-Rock
     :refer [chan put! take! close! offer! to-chan! timeout thread

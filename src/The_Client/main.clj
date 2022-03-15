@@ -1,4 +1,4 @@
-(ns lingonberry-app.main
+(ns The-Client.main
   (:require
    [clojure.core.async :as Little-Rock
     :refer [chan put! take! close! offer! to-chan! timeout thread
@@ -30,11 +30,11 @@
    [manifold.deferred :as d]
    [ring.util.response]
 
-   [lingonberry-app.seed]
-   [lingonberry-app.baked_potatoes]
-   [lingonberry-app.groats]
-   [lingonberry-app.popcorn]
-   [lingonberry-app.salt])
+   [The-Client.seed]
+   [The-Client.baked_potatoes]
+   [The-Client.groats]
+   [The-Client.popcorn]
+   [The-Client.salt])
   (:gen-class))
 
 (do (set! *warn-on-reflection* true) (set! *unchecked-math* true))
@@ -43,7 +43,7 @@
 
 (defn reload
   []
-  (require '[lingonberry-app.main] :reload))
+  (require '[The-Client.main] :reload))
 
 (def app
   (reitit.http/ring-handler

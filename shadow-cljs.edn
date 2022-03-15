@@ -8,4 +8,4 @@
            :asset-path "./ui"
 
            :modules
-           {:main {:init-fn lingonberry-app.ui-main/-main}}}}}
+           {:main {:init-fn The-Client.ui-main/-main}}}}}

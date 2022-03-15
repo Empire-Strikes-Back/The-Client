@@ -1,4 +1,4 @@
-(ns lingonberry-app.baked-potatoes
+(ns The-Client.baked-potatoes
   (:require
    [clojure.core.async :as Little-Rock
     :refer [chan put! take! close! offer! to-chan! timeout thread
